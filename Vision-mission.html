@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Philadelphia Fellowship Ministries</title>
+  <meta name="description" content="Philadelphia Fellowship International Ministries: A home of worship, love, and faith rooted in Jesus Christ. Join us for weekly services and spiritual growth." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+<header>
+  <div class="header-container">
+    <div class="logo">
+      <a href="home.html" aria-label="Philadelphia Fellowship International Ministries Home">
+        <img src="pfim.svg" alt="PFIM Logo" />
+      </a>
+    </div>
+
+    <div class="ministry-title">
+      <h1>Philadelphia Fellowship International Ministries <span class="country">(Kenya)</span></h1>
+    </div>
+
+    <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+      <i class="fas fa-bars" aria-hidden="true"></i>
+    </button>
+
+    <nav id="main-nav" class="nav-menu">
+      <ul class="nav-list">
+        <li><a href="home.html" class="nav-link active" aria-current="page">Home</a></li>
+        <li><a href="aboutus.html" class="nav-link">About</a></li>
+        <li><a href="pfim-ministries.html" class="nav-link">Ministries</a></li>
+        <li><a href="pfim.html" class="nav-link">PFIM Events</a></li>
+        <li><a href="contacts.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="inquiry">
+      <a href="contacts.html" class="btn-enquire">Enquire</a>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <section class="vision-mission" aria-label="Vision and Mission of Philadelphia Fellowship International Ministries">
+      <div class="vision-mission-container">
+        <div class="vision">
+        <h1> OUR VISION</h1>
+        </div>
+        <div class="vision-description">
+        <p>
+          “To unlock the treasures of heaven to God's people inorder to accomplish Christ's commission."
+        </p>
+        </div>
+        <div class="mission">
+        <h1> OUR MISSION</h1>
+        </div>
+        <div class="mission-description">
+          <p>"To reach and lead people to Jesus Christ, to transform lives and make disciples for Him and prepare them for His second coming."</p>
+      </div>
+    </section>
+  </main>
+
+    <footer>
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>Philadelphia Fellowship International Ministries</h3>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="home.html" aria-current="page">Home</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="pfim-ministries.html">Ministries</a></li>
+        <li><a href="pfim.html">PFIM Events</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contacts</h4>
+      <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+254721794911">(+254) 721 794 911</a></p>
+      <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@philadelphiafellowshipintlministries.com">info@philadelphiafellowshipintlministries.com</a></p>
+      <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Opp. Mugumo Nursery, Umoja 2, Nairobi</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Philadelphia Fellowship International Ministries. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const navMenu = document.querySelector('.nav-menu');
+  hamburger.addEventListener('click', () => {
+    const isOpen = navMenu.classList.toggle('open');
+    hamburger.setAttribute('aria-expanded', isOpen);
+  });
+</script>
+
+</body>
+</html>
